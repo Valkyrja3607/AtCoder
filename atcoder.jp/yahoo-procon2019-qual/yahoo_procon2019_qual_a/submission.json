@@ -1,0 +1,12 @@
+{
+	"id": 4205549,
+	"epoch_second": 1549713868,
+	"problem_id": "yahoo_procon2019_qual_a",
+	"contest_id": "yahoo-procon2019-qual",
+	"user_id": "Valkyrja",
+	"language": "Python3 (3.4.3)",
+	"point": 100,
+	"length": 90,
+	"result": "AC",
+	"execution_time": 17
+}
