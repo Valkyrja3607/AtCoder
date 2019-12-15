@@ -1,0 +1,3 @@
+n=int(input())
+s=input().lower().replace("a","").replace("i","").replace("u","").replace("e","").replace("o","").replace("y","").replace(".","").replace(",","").replace("b","1").replace("c","1").replace("d","2").replace("w","2").replace("t","3").replace("j","3").replace("f","4").replace("q","4").replace("l","5").replace("v","5").replace("s","6").replace("x","6").replace("p","7").replace("m","7").replace("h","8").replace("k","8").replace("n","9").replace("g","9").replace("z","0").replace("r","0").split()
+print(*s)
