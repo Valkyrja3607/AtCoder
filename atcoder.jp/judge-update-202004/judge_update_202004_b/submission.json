@@ -1,0 +1,12 @@
+{
+	"id": 11677096,
+	"epoch_second": 1586363075,
+	"problem_id": "judge_update_202004_b",
+	"contest_id": "judge-update-202004",
+	"user_id": "Valkyrja",
+	"language": "Cython (0.29.16)",
+	"point": 200,
+	"length": 282,
+	"result": "AC",
+	"execution_time": 22
+}

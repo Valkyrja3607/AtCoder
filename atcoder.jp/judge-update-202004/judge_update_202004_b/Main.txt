@@ -1,0 +1,16 @@
+cdef int n
+cdef list r,b
+cdef str p,q
+n=int(input())
+r,b=[],[]
+for i in range(n):
+    p,q=input().split()
+    if q=="B":
+        b.append(int(p))
+    else:
+        r.append(int(p))
+
+r.sort()
+b.sort()
+if r:print('\n'.join(map(str,r)))
+if b:print('\n'.join(map(str,b)))
