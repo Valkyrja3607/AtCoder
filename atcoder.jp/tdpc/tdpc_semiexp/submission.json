@@ -1,0 +1,12 @@
+{
+	"id": 12043468,
+	"epoch_second": 1587206394,
+	"problem_id": "tdpc_semiexp",
+	"contest_id": "tdpc",
+	"user_id": "Valkyrja",
+	"language": "Python3 (3.4.3)",
+	"point": 4,
+	"length": 258,
+	"result": "AC",
+	"execution_time": 1663
+}
