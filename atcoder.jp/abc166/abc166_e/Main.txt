@@ -1,0 +1,11 @@
+n=int(input())
+a=[int(j) for j in input().split()]
+from collections import defaultdict
+c=defaultdict(int)
+for i in range(n):
+    c[i+1-a[i]]+=1
+ans=0
+for i in range(n):
+    ans+=c[a[i]+i+1]
+
+print(ans)
