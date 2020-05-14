@@ -1,0 +1,27 @@
+n,k=map(int,input().split())
+a=[0]+[int(j) for j in input().split()]
+l=[-1]*(n+1)
+ll=[]
+i=1
+idx=0
+while True:
+    if l[i]==-1:
+        l[i]=idx
+    else:
+        ll.append(i)
+        break
+    ll.append(i)
+    i=a[i]
+    idx+=1
+
+p=ll[-1]
+nl=ll[l[p]:-1]
+ml=ll[:l[p]]
+n,m=len(nl),len(ml)
+if k<m:
+    print(ml[k])
+elif nl==[]:
+    print(p)
+    exit()
+else:
+    print(nl[(k-m)%n])
