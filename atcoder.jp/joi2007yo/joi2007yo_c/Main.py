@@ -1,0 +1,1 @@
+print("".join([chr(65+(ord(i)-68)%26) for i in input()]))
