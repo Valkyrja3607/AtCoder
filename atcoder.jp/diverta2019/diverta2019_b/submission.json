@@ -1,0 +1,12 @@
+{
+	"id": 16574629,
+	"epoch_second": 1599550048,
+	"problem_id": "diverta2019_b",
+	"contest_id": "diverta2019",
+	"user_id": "Valkyrja",
+	"language": "PyPy3 (7.3.0)",
+	"point": 200,
+	"length": 166,
+	"result": "AC",
+	"execution_time": 103
+}
