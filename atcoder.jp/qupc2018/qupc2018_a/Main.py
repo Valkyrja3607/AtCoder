@@ -1,0 +1,1 @@
+print(2010+4*int(input()))
